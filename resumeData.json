@@ -1,0 +1,197 @@
+{
+  "main": {
+    "name":"Asbat El Khairi",
+    "occupation":"PhD Student",
+    "description":"IT Security Researcher",
+    "bio": "A double Master's degree holder in Computer Science and an enthusiastic, adaptive, and fast-learning person with a demonstrated experience in Information Security and Software Engineering.  Currently, I am a Cybersecurity analyst at Siemens. My main task is to analyze and evaluate security vulnerabilities in third-party software.",
+    "image":"profilepic.jpg",
+    "main_image": "mainprofile.jpg",
+    "intro":"An enthusiastic IT Security Researcher with a particular focus on employing Machine Learning techniques and algorithms within the domains of Phishing, Malware Analysis/Detection, Intrusion Detection, and Open-Source Vulnerability Analysis.",
+    "contactmessage":"",
+    "email": "asbat.el@tum.de",
+    "phone": "555-555-5555",
+    "status": "Single",
+    "nationality": "Moroccan",
+    "address":{
+      "street":"Heiglhofstr 66",
+      "city":"Munich",
+      "state":"Bayern",
+      "zip": "80686"
+    },
+    "website": "added",
+    "resumedownload":"#portfolio",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/asbat.el",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/asbat-elkhairi/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Asbatel",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/asbat_elkhairi/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"gmail",
+        "url":"mailto:asbat.el@tum.de",
+        "className":"fa fa-envelope"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here",
+    "education":[
+      {
+        "school":"Technical University Munich",
+        "degree":"Master of Science (M.Sc.), Informatics, Distinction, 1.5",
+        "graduated":"2017 - 2020",
+        "description":"Areas of Specialization: Distributed Systems, Networks and Security, Software Engineering",
+        "logo": "tum.png"
+      },
+      {
+        "school":"Al Akhawayn University",
+        "degree":"Master of Science (M.Sc.), Computer Science, Distinction, 3.5",
+        "graduated":"2016 - 2017",
+        "description":"Areas of Specialization: Information Systems Security",
+        "logo": "aui.png"
+      },
+      {
+        "school":"Al Akhawayn University",
+        "degree":"Bachelor of Science (B.Sc.), Computer Science, Cum Laude, 3.4",
+        "graduated":"2012 - 2015",
+        "description":"Major: Computer Science, Minor: Business Administration",
+        "logo": "aui.png"
+      }
+    ],
+    "work":[
+      {
+        "company":"Siemens",
+        "title":"Working student: Cyber Security Analyst",
+        "years":"June 2019 - Present",
+        "description": ["Analyze and evaluate security vulnerabilities in third-party software", "Identify and research third-party components used in Siemens solutions"],
+        "logo": "siemens.png",
+        "city": "Munich"
+      },
+      {
+        "company":"Mozaiq",
+        "title":"Working student: Security Operations",
+        "years":"Oct 2018 - Mai 2019",
+        "description": ["Assessed network and infrastructure requirements and provided solutions", "Performed intrusion detection and incident management", "Performed Penetration Testing on Mozaiq Web and Android applications"],
+        "logo":"mozaiq.png",
+        "city": "Munich"
+      },
+      {
+        "company":"RideBee",
+        "title":"IDP Student: Android Developer",
+        "years":"Oct 2018 - Mar 2019",
+        "description": ["Developed RideBee Android app", "Integrated Google Analytics"],
+        "logo":"ridebee.png",
+        "city": "Munich"
+      },
+      {
+        "company":"CHECK24 Vergleichsportal GmbH",
+        "title":"Working student: Analytics Developer",
+        "years":"Dec 2017 - Aug 2018",
+        "description": ["Integrated analytics integrations with websites and mobile applications", "Provided general troubleshooting assistance for analytics reporting", "Fixed front-end bugs" ],
+        "logo":"check24.png",
+        "city": "Munich"
+      },
+      {
+        "company":"Ministère de l'économie et des Finances",
+        "title":"Internship: Security Operations",
+        "years":"Mai 2016 - Jul 2016",
+        "description": ["Assisted in security operations (assessments, reporting, and incident response)", "Performed a comparative study of different types of Web Application Firewalls"],
+        "logo":"mef.png",
+        "city": "Rabat"
+      },
+      {
+        "company":"Center for Learning Excellence - AUI",
+        "title":"Student Mentor",
+        "years":"Jan 2014 - Dec 2016",
+        "description": ["Delivered administrative, academic, and social support to first-year students"],
+        "logo":"cle.png",
+        "city": "Ifrane"
+      }
+    ],
+    "skills":[
+      {
+        "section":"Programming Languages & Frameworks",
+        "stack":[{"item": "Java", "logo":"java.png"}, {"item": "C", "logo":"c.png"}, {"item": "C++", "logo":"cplus.png"},
+           {"item": "Python", "logo":"python.png"}, {"item": "PHP", "logo":"php.png"}, {"item": "JavaScript", "logo":"js.png"},
+            {"item": "React.js", "logo":"react.png"},  {"item": "HTML", "logo":"html.png"}, {"item": "CSS", "logo":"css.png"},
+            {"item": "Node.js", "logo":"node.png"}, {"item": "Flask", "logo":"flask.png"}, {"item": "Express", "logo":"express.png"},
+            {"item": "Django", "logo":"django.png"}, {"item": "Android", "logo":"android.png"}]
+      },
+      {
+        "section":"Database Systems",
+        "stack":[{ "item": "MongoDB", "logo":"mongodb.png"}, {"item": "MySQL", "logo":"mysql.png"}, {"item": "SQLite", "logo":"sqlite.png"} ]
+      },
+      {
+        "section":"Network and Security",
+        "stack":[{ "item": "Burp", "logo":"burp.png"}, {"item": "NMAP", "logo":"nmap.png"},
+        { "item": "Nessus", "logo":"nessus.png"}, {"item": "Nexpose", "logo":"nexpose.png"}, { "item": "Metasploit", "logo":"meta.png"}, {"item": "Kali", "logo":"kali.png"},
+      {"item": "Wireshark", "logo":"wireshark.png"}, { "item": "Snort", "logo":"snort.png"}, {"item": "Drozer", "logo":"drozer.png"},
+      {"item": "Androguard", "logo":"androguard.png"}, {"item": "Apktool", "logo":"apktool.png"}]
+    },
+      {
+        "section":"Machine Learning Libraries",
+        "stack":[{ "item": "TensorFlow", "logo":"tenser.png"}, {"item": "Sklearn", "logo":"skt.png"}, {"item": "Keras", "logo":"keras.png"}, {"item": "PyTorch", "logo":"pytorch.png"} ]
+      },
+      {
+        "section":"Architecture & Modelling",
+        "stack":[{ "item": "UML", "logo":"uml.png"}, {"item": "ER", "logo":"er.png"}]
+      },
+      {
+        "section":"Version Control",
+        "stack":[{ "item": "GIT", "logo":"git.png"}]
+      },
+
+      {
+        "section":"Web Servers and Proxies",
+        "stack":[{ "item": "Apache", "logo":"apache.png"}, {"item": "Node.js", "logo":"node.png"}, {"item": "Ngix", "logo":"ngix.png"}]
+      },
+      {
+        "section":"Processes",
+        "stack":[{ "item": "Scrum", "logo":"scrum.png"}, {"item": "Kanban", "logo":"kanban.png"}]
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Layered Android Malware Detection Using Program Dependence Graph Embedding and Manifest Features",
+        "category":"Master Thesis",
+        "image":"thesis.png",
+        "url":"https://www.sec.in.tum.de/i20/student-work/layered-android-malware-detection-using-program-dependence-graph-embedding-and-manifest-features-1"
+      },
+      {
+        "title":"Anti-Phishing Awareness",
+        "category":"Android app: Phishing Awareness game + Scanner",
+        "image":"antiphishing.png",
+        "url":"https://play.google.com/store/apps/details?id=free.phishing.seminarapp"
+      },
+      {
+        "title":"ExpoDroid",
+        "category":"A Hook-based Android Malware Scanner based on Xposed framework and VirusTotal API",
+        "image":"expodroid.png",
+        "url":"https://github.com/Asbatel/ExpoDroid"
+      },
+      {
+        "title":"PhishCatch",
+        "category":"A framework for analysis and detection of phishing URLs using Ensemble Learning",
+        "image":"phishcatch.png",
+        "url":"https://github.com/Asbatel/PhishCatch"
+      }
+    ]
+  }
+}
