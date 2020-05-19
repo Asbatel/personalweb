@@ -119,8 +119,8 @@ header .main-pic {
 header .frame {
    position: relative;
    margin-bottom: 10px;
-   width: 990px;
-   height: 700px;
+   width: fit-content;
+   height: fit-content;
    border-radius: 2%;
    border: 2px solid transparent;
    background: rgba(0, 0, 0, 0.7);
@@ -299,12 +299,13 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 20px/30px 'opensans-bold', sans-serif;
 }
 #resume .container {
     display: flex;
-    width: 100%;
-}
+    width: auto;
+    height: auto;
+  }
 #resume .contentA {
     flex: 4.5;
     margin-bottom: 10px;
@@ -314,8 +315,9 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume .unilogo {
-  width: 90px;
-  height: 70px;
+  width: auto;
+  height: auto;
+  text-align: center;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -329,28 +331,47 @@ ul#nav li.current a { color: #F06000; }
 #resume .info {
    font: 16px/24px 'librebaskerville', serif;
    color: black;
+   width: auto;
+   height: auto;
    margin-bottom: 15px;
    margin-top: 13px;
 }
+
+#resume .des {
+   font: 17px/24px 'librebaskerville', serif;
+   color: black;
+   margin-top: 3px;
+   margin-bottom: 3px;
+   margin-left, margin-right: 15px;
+}
+
+#resume .uni {
+    font-size: 16px;
+    font-size: 4vw;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 13px;
+}
+
+
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans', sans-serif;
-   font-weight: bold;
-   margin-top: 6px;
+   font: 15px/24px 'librebaskerville', serif;
+   margin-top: 4px;
+   color: #686868;
 }
 
 #resume .description {
    font: 14px/22px 'librebaskerville', sans-serif;
-   color: gray;
+   color: black;
 }
 
 #resume .city {
-   font: 14px/22px 'librebaskerville', sans-serif;
-   font-weight: bold;
-   color: gray;
+   font: 14px/22px 'opensans', sans-serif;
+   color: #686868;
 }
 
 #resume .skill-logo {
@@ -405,7 +426,7 @@ ul#nav li.current a { color: #F06000; }
 
 #resume .wholecontainer{
   display: flex;
-  width: 950px;
+  width: auto;
   flex-flow: row wrap;
   position: relative;
 }

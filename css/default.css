@@ -716,6 +716,30 @@ properly.
 
 }
 
+@media only screen and (max-width: 767px) {
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+header {
+     background:  rgb(54,49,49) !important;
+  }
+
+  .frame {
+    background-color: transparent !important;
+}
+
+
+
+  .contentB {
+    width: 80px;
+    align-items: center;
+  }
+
+}
 /* mobile wide/smaller tablets
 --------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
@@ -767,6 +791,8 @@ properly.
 
 }
 
+
+
 /* ------------------------------------------------------------------ */
 /* e. Others
 /* ------------------------------------------------------------------ */
@@ -801,7 +827,3 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
-
-
-
-
