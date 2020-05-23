@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
+import Loader from './Components/Loader';
 
 class App extends Component {
 
@@ -28,8 +29,9 @@ class App extends Component {
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({resumeData: data});
+        this.setState({resumeData: data, loaded: true});
       }.bind(this),
+      timeout: 3000,
       error: function(xhr, status, err){
         console.log(err);
         alert(err);
@@ -42,15 +44,16 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Footer data={this.state.resumeData.main}/>
-      </div>
-    );
+      return (
+
+        <div className="App">
+          <Header data={this.state.resumeData.main}/>
+          <About data={this.state.resumeData.main}/>
+          <Resume data={this.state.resumeData.resume}/>
+          <Portfolio data={this.state.resumeData.portfolio}/>
+          <Footer data={this.state.resumeData.main}/>
+        </div>  );
+
   }
 }
 

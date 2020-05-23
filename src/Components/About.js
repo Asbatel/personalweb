@@ -1,8 +1,25 @@
 import React, { Component } from 'react';
 import Resume from '../resume/Asbat_ElKhairi_CV.pdf';
-
+import ReactGA from 'react-ga';
 class About extends Component {
+
+  constructor(props){
+    super(props);
+    ReactGA.initialize('UA-109126946-6');
+  }
+
+
   render() {
+
+    const SendOutboundEvent = (e) => {
+    console.log(e.target.href);
+    const link = e.target.href;
+    ReactGA.outboundLink({
+      label: link
+    }, () => {
+      console.log('event sent', link);
+    });
+  };
 
     if(this.props.data){
       var name = this.props.data.name;
@@ -40,7 +57,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={Resume} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={Resume} onClick={SendOutboundEvent} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
