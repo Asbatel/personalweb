@@ -58,16 +58,16 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 95px 'opensans-bold', sans-serif;
+   font: 99px 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   margin:  auto ;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 21px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A7;
-   margin: 0 auto;
+   margin:  auto;
    width: 100%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
@@ -91,7 +91,7 @@ header .social {
 }
 
 header .aboutself {
-   margin: 24px 0;
+   margin: 40px 0;
    padding: 0;
    font-size: 30px;
    position: relative;
@@ -111,10 +111,11 @@ header .social li a:hover { color: #11ABB0; }
 header .main-pic {
    position: relative;
    margin: 15px;
-   width: 300px;
-   height: 285px;
+   width: 310px;
+   height: 295px;
    border-radius: 50%;
-   border: 0.5px solid transparent;
+   border: 1px solid gray;
+   object-fit: fill;
 }
 header .frame {
    position: relative;
@@ -253,13 +254,15 @@ ul#nav li.current a { color: #F06000; }
    height: 220px;
    border-radius: 18px;
    border: 2px solid transparent;
+   object-fit: fill;
+
 }
 #about .contact-details { width: 43.66667%; }
 #about .download {
    width: 50.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
+#about .p-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
@@ -604,8 +607,11 @@ ul#nav li.current a { color: #F06000; }
    position: absolute;
    left: 0;
    top: 0;
-   width: 100%;
    height: 100%;
+   width: 100%;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
 
 	opacity: 0;
 	-moz-opacity: 0;
@@ -644,8 +650,11 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
-   width: 100%;
-   height: 100%
+   height: 80%;
+   width: 80%;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
 
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
