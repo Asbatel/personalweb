@@ -7,6 +7,7 @@ class Header extends Component {
     if(this.props.data){
       var mainpic= "images/me/"+this.props.data.main_image;
       var name = this.props.data.name;
+      var im = this.props.data.im;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
@@ -35,9 +36,9 @@ class Header extends Component {
 
 
         <div className="row banner frame">
-        <LazyLoadImage className="main-pic"  src={mainpic} alt="asbat pic" />
+        <LazyLoadImage className="main-pic"  src={mainpic}/>
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h1 className="responsive-headline">{im} {name}.</h1>
             <h3 className="aboutself">{intro}</h3>
             <hr />
             <ul className="social">
