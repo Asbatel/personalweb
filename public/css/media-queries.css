@@ -23,13 +23,16 @@
 
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 
     /* header styles
+
+
    ------------------------------------------------------------------ */
+
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 58px/1.3em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
    }
    header .banner-text h3 {
@@ -272,16 +275,27 @@
 
 @media only screen and (max-width: 480px) {
 
+
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
+
+   header .banner {
+      display: inline-block;
+      margin: 0 auto;
+      width: 100%;
+      padding-bottom: 10px;
+      text-align: center;
+   }
+
+   header .banner { padding-top: 20px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;
-      margin: 0 auto 24px auto;
+      font: 18px/1.3em 'opensans-bold', sans-serif;
+      width: 100%;
+      margin: 2px;
    }
    header .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
