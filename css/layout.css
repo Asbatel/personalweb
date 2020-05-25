@@ -51,14 +51,14 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
+   width: 90%;
    padding-bottom: 30px;
    text-align: center;
 }
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 99px 'opensans-bold', sans-serif;
+   font: 90px 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin:  auto ;
